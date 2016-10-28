@@ -5,3 +5,9 @@ dependencies:
 test:
   post:
     - bundle exec rubocop
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: customer-support-api
